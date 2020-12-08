@@ -21,8 +21,8 @@ function handleHeartRateMeasurement(heartRateMeasurement) {
 }
 
 var heartRates = [];
-//var mode = 'bar';//
-var mode = 'line';
+var mode = 'bar';
+//var mode = 'line';//
 
 canvas.addEventListener('click', event => {
   mode = mode === 'bar' ? 'line' : 'bar';
